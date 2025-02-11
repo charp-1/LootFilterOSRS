@@ -1,6 +1,6 @@
 meta {
     name = "loot-filters/filterscapeVcharp";
-    description = "Reference implementation of a loot filter, inspired by Path of Exile, targeting main accounts.";
+    description = "A edit of the reference file to my tastes.";
 }
 
 // USERVAR: Highlight Color (Default Alt + Left Click)
