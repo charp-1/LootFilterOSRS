@@ -4,12 +4,12 @@ meta {
 }
 
 // USERVAR: Highlight Color (Default Alt + Left Click)
-#define HCOLOR "AA00FF"
+//#define HCOLOR "AA00FF"
 //#define HCOLOR "f5b462a"
 
 // USERVAR: Your notification sounds - place in .runelite/loot-filters/sounds
-#define SOUND1 "lvl_7_enchant.wav"
-#define SOUND2 "victory.wav"
+//#define SOUND1 "lvl_7_enchant.wav"
+//#define SOUND2 "victory.wav"
 
 
 // USERVAR: item value thresholds
