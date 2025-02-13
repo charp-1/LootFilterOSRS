@@ -142,7 +142,6 @@ meta {
 
 // Clues
 MASTER_CLUES("clue scroll (master)")
-MASTER_CLUES("clue scroll (master)")
 ELITE_CLUES("clue scroll (elite)")
 HARD_CLUES("clue scroll (hard)")
 MEDIUM_CLUES("clue scroll (medium)")
@@ -163,9 +162,9 @@ MEDIUM_CLUES("Challenge scroll (medium)")
 EASY_CLUES("Challenge scroll (easy)")
 BEGINNER_CLUES("Challenge scroll (beginner)")
 
-MEDIUM_CLUES("Key (medium)")
+// Clue Keys
 ELITE_CLUES("Key (elite)")
-
+MEDIUM_CLUES("Key (medium)")
 
 // Misc Uniques
 UNIQUE_S_TIER("*champion scroll")
