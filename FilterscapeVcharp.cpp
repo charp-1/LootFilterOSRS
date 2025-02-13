@@ -163,6 +163,10 @@ MEDIUM_CLUES("Challenge scroll (medium)")
 EASY_CLUES("Challenge scroll (easy)")
 BEGINNER_CLUES("Challenge scroll (beginner)")
 
+MEDIUM_CLUES("Key (medium)")
+ELITE_CLUES("Key (elite)")
+
+
 // Misc Uniques
 UNIQUE_S_TIER("*champion scroll")
 UNIQUE_B_TIER("Dark totem")
@@ -370,13 +374,17 @@ VALUE_E_TIER("Blessed bone shards")
 VALUE_E_TIER("Sun-kissed bones")
 VALUE_E_TIER("Ecumenical key shard")
 
-// Food
+// Edible Food
 C_FOOD("Cooked moonlight antelope")
 C_FOOD("Anglerfish")
 C_FOOD("Manta ray")
 C_FOOD("Dark crab")
 C_FOOD("Shark")
 C_FOOD("Cooked Karambwan")
+C_FOOD("Wild pie")
+C_FOOD("Monkfish")
+C_FOOD("Meat pizza")
+C_FOOD("Lobster")
 
 // Hide specific single/un-noted items
 HIDE_1("*ashes")
