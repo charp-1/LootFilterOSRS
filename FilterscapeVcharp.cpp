@@ -168,6 +168,7 @@ MEDIUM_CLUES("Key (medium)")
 
 // Misc Uniques
 UNIQUE_S_TIER("*champion scroll")
+UNIQUE_B_TIER("Blood shard")
 UNIQUE_B_TIER("Dark totem")
 UNIQUE_C_TIER("Dark totem top")
 UNIQUE_C_TIER("Dark totem base")
@@ -209,6 +210,8 @@ UNIQUE_B_TIER("Abyssal head")
 UNIQUE_B_TIER("Araxyte head")
 UNIQUE_B_TIER("Alchemical hydra heads")
 UNIQUE_B_TIER("Kbd heads")
+UNIQUE_B_TIER("Cockatrice head")
+UNIQUE_B_TIER("Basilisk head")
 UNIQUE_B_TIER("Kq head*")
 UNIQUE_B_TIER("Dark claw")
 UNIQUE_C_TIER("Key master teleport")
@@ -314,6 +317,18 @@ TEXT_HIGHLIGHT("Divine Ranging potion*", "ff5FB7DA")
 TEXT_HIGHLIGHT("Bastion potion*", "ffdb721c")
 TEXT_HIGHLIGHT("Divine Bastion potion*", "ffdb721c")
 
+// Edible Food
+C_FOOD("Cooked moonlight antelope")
+C_FOOD("Anglerfish")
+C_FOOD("Manta ray")
+C_FOOD("Dark crab")
+C_FOOD("Shark")
+C_FOOD("Cooked Karambwan")
+C_FOOD("Wild pie")
+C_FOOD("Monkfish")
+C_FOOD("Meat pizza")
+C_FOOD("Lobster")
+
 // Value Style defaults
 if (value:>VALUE_TIER_S) S_TIER
 if (value:>VALUE_TIER_A) A_TIER
@@ -372,18 +387,6 @@ VALUE_E_TIER("Warrior guild token")
 VALUE_E_TIER("Blessed bone shards")
 VALUE_E_TIER("Sun-kissed bones")
 VALUE_E_TIER("Ecumenical key shard")
-
-// Edible Food
-C_FOOD("Cooked moonlight antelope")
-C_FOOD("Anglerfish")
-C_FOOD("Manta ray")
-C_FOOD("Dark crab")
-C_FOOD("Shark")
-C_FOOD("Cooked Karambwan")
-C_FOOD("Wild pie")
-C_FOOD("Monkfish")
-C_FOOD("Meat pizza")
-C_FOOD("Lobster")
 
 // Hide specific single/un-noted items
 HIDE_1("*ashes")
