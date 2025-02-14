@@ -140,6 +140,19 @@ meta {
 #define EASY_CLUES(_name) if (name:_name)     { COLOR3(DARK_GREEN, KHAKI) }
 #define BEGINNER_CLUES(_name) if (name:_name) { COLOR3(     WHITE, KHAKI) }
 
+// Testing Block
+//VALUE_S_TIER("Magic leaves")
+//VALUE_A_TIER("Yew leaves")
+//VALUE_B_TIER("Maple leaves")
+//VALUE_C_TIER("Willow leaves")
+//VALUE_D_TIER("Oak leaves")
+//VALUE_E_TIER("Leaves")
+
+//UNIQUE_S_TIER("Shayzien helm (4)")
+//UNIQUE_A_TIER("Shayzien platebody (4)")
+//UNIQUE_B_TIER("Shayzien greaves (4)")
+//UNIQUE_C_TIER("Shayzien Boots (4)")
+
 // Clues
 MASTER_CLUES("clue scroll (master)")
 ELITE_CLUES("clue scroll (elite)")
@@ -380,6 +393,7 @@ VALUE_E_TIER("Paramaya ticket")
 VALUE_E_TIER("Rare creature parts")
 VALUE_E_TIER("Reward token credits")
 VALUE_E_TIER("Stardust")
+VALUE_E_TIER("Spirit flakes")
 VALUE_E_TIER("Tokkul")
 VALUE_E_TIER("Termites")
 VALUE_E_TIER("Unidentified minerals")
