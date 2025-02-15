@@ -1,1 +1,1 @@
-A edit of the reference included in the Loot-Filters plugin for Old School Runescape.
+A edit of the reference file to my tastes. Credit to @abstain of the FilterScape Discord for the base!
