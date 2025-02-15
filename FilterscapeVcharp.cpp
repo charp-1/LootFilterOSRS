@@ -116,7 +116,7 @@ meta {
     color = GRAY; \
     hidden = true; \
 }
-#define COOKED_FOOD { \
+#define C_FOOD { \
     COLOR2(WHITE) \
     textAccent = 1; \
 }
@@ -131,7 +131,7 @@ meta {
 #define VALUE_E_TIER (_name) if (name:_name) E_TIER
 #define VALUE_f_TIER (_name) if (name:_name) f_TIER
 
-#define C_FOOD (_name) if (name:_name) COOKED_FOOD
+#define COOKED_FOOD (_name) if (name:_name) C_FOOD
 
 #define MASTER_CLUES(_name) if (name:_name)   { COLOR3("ff9B3026", KHAKI) }
 #define ELITE_CLUES(_name) if (name:_name)    { COLOR3("ffBDA518", KHAKI) }
@@ -331,16 +331,16 @@ TEXT_HIGHLIGHT("Bastion potion*", "ffdb721c")
 TEXT_HIGHLIGHT("Divine Bastion potion*", "ffdb721c")
 
 // Edible Food
-C_FOOD("Cooked moonlight antelope")
-C_FOOD("Anglerfish")
-C_FOOD("Manta ray")
-C_FOOD("Dark crab")
-C_FOOD("Shark")
-C_FOOD("Cooked Karambwan")
-C_FOOD("Wild pie")
-C_FOOD("Monkfish")
-C_FOOD("Meat pizza")
-C_FOOD("Lobster")
+COOKED_FOOD("Cooked moonlight antelope")
+COOKED_FOOD("Anglerfish")
+COOKED_FOOD("Manta ray")
+COOKED_FOOD("Dark crab")
+COOKED_FOOD("Shark")
+COOKED_FOOD("Cooked Karambwan")
+COOKED_FOOD("Wild pie")
+COOKED_FOOD("Monkfish")
+COOKED_FOOD("Meat pizza")
+COOKED_FOOD("Lobster")
 
 // Value Style defaults
 if (value:>VALUE_TIER_S) S_TIER
