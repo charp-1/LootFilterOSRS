@@ -92,10 +92,12 @@ meta {
     COLOR3(WHITE, ORANGE) \
     textAccent = 1; \
     showLootbeam = true; \
+    menuTextColor = ORANGE; \
 }
 #define B_TIER { \
     COLOR3(BLACK, ORANGE) \
     showLootbeam = true; \
+    menuTextColor = ORANGE; \
 }
 #define C_TIER { \
     COLOR2(CARAMEL) \
@@ -352,7 +354,7 @@ if (value:>VALUE_TIER_E) E_TIER
 //if (value:<VALUE_TIER_F) F_TIER
 
 // Misc Valuable/Stackable Items (Comment or remove any you don't want to see under min value)
-VALUE_D_TIER("Dragon bones")
+//VALUE_D_TIER("Dragon bones")
 VALUE_D_TIER("Dagannoth bones")
 VALUE_D_TIER("Frozen tear")
 VALUE_D_TIER("Zulrah's scales")
