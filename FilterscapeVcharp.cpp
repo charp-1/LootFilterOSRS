@@ -1,6 +1,6 @@
 meta {
     name = "loot-filters/filterscapeVcharp";
-    description = "A edit of the reference file to my tastes.";
+    description = "A edit of the reference file to my tastes. Credit to @abstain of the FilterScape Discord for the base";
 }
 
 // USERVAR: Highlight Color (Default Alt + Left Click)
