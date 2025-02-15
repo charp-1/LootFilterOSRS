@@ -433,6 +433,6 @@ HIDE_1("*Harralander")
 // HIDE_1("*Huasca")
 
 // Catch all to display untradeables
-// if (tradeable: false) {
-//     color = WHITE;
-// }
+ if (tradeable: false) {
+     color = WHITE;
+}
