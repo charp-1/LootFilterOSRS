@@ -21,9 +21,6 @@ meta {
 #define VALUE_TIER_E 20000     // 20k
 #define VALUE_TIER_F 800       // 800
 
-#define COLOR2(_fg) textColor = _fg; borderColor = _fg;
-#define COLOR3(_fg, _bg) textColor = _fg; borderColor = _fg; backgroundColor = _bg;
-
 #define GRAY "FF808080"
 #define RED "ffff0000"
 #define GREEN "ff00ff00"
@@ -55,6 +52,8 @@ meta {
 #define RUNITE "ff516d78"
 
 // Methods
+#define COLOR2(_fg) textColor = _fg; borderColor = _fg;
+#define COLOR3(_fg, _bg) textColor = _fg; borderColor = _fg; backgroundColor = _bg;
 #define HIDE_1(_name) if (name:_name && quantity:<2) { hidden = true; }
 #define DARK_BG(_name, _color) if (name:_name) { color = _color; borderColor = _color; backgroundColor = BLACK; }
 #define TEXT_HIGHLIGHT(_name, _color) if (name:_name) { color = _color; textAccent = 1; }
@@ -62,6 +61,7 @@ meta {
 #define UNIQUE_S_TIER(_name ) if (name:_name) { \
     COLOR3(RED, WHITE) \
     textAccent = 1; \
+    fontType = 2; \
     showLootbeam = true; \
 }
 #define UNIQUE_A_TIER(_name ) if (name:_name) { \
@@ -87,17 +87,16 @@ meta {
     COLOR3(RED, WHITE) \
     textAccent = 1; \
     showLootbeam = true; \
+    fontType = 2; \
 }
 #define A_TIER { \
     COLOR3(WHITE, ORANGE) \
     textAccent = 1; \
     showLootbeam = true; \
-    menuTextColor = ORANGE; \
 }
 #define B_TIER { \
     COLOR3(BLACK, ORANGE) \
     showLootbeam = true; \
-    menuTextColor = ORANGE; \
 }
 #define C_TIER { \
     COLOR2(CARAMEL) \

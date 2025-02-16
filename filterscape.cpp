@@ -1,3 +1,5 @@
+// WARNING: This filter is large. We recommend you copy&paste it out into an external text editor to make changes.
+
 meta {
     name = "loot-filters/filterscape";
     description = "Reference implementation of a loot filter, covering all major rares/uniques.";
@@ -180,6 +182,7 @@ UNIQUE_B_TIER("Bludgeon axon")
 RARE_CUSTOM("Araxyte fang", DARK_GREEN, BLACK)
 UNIQUE_A_TIER("Noxious pommel")
 UNIQUE_A_TIER("Noxious point")
+UNIQUE_A_TIER("Noxious blade")
 
 // Hydra
 UNIQUE_B_TIER("Hydra's eye")
