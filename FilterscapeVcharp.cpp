@@ -3,15 +3,6 @@ meta {
     description = "A edit of the reference file to my tastes. Credit to @abstain of the FilterScape Discord for the base!";
 }
 
-// USERVAR: Highlight Color (Default Alt + Left Click)
-//#define HCOLOR "AA00FF"
-//#define HCOLOR "f5b462a"
-
-// USERVAR: Your notification sounds - place in .runelite/loot-filters/sounds
-//#define SOUND1 "lvl_7_enchant.wav"
-//#define SOUND2 "victory.wav"
-
-
 // USERVAR: item value thresholds
 #define VALUE_TIER_S 100000000 // 100m
 #define VALUE_TIER_A 10000000  // 10m
@@ -21,6 +12,7 @@ meta {
 #define VALUE_TIER_E 20000     // 20k
 #define VALUE_TIER_F 800       // 800
 
+// Colors
 #define GRAY "FF808080"
 #define RED "ffff0000"
 #define GREEN "ff00ff00"
@@ -123,6 +115,7 @@ meta {
 }
 
 #define DEFAULT_STYLE { color = WHITE; textAccent = 1; }
+#define COOKED_FOOD (_name) if (name:_name) C_FOOD
 
 #define VALUE_S_TIER (_name) if (name:_name) S_TIER
 #define VALUE_A_TIER (_name) if (name:_name) A_TIER
@@ -131,8 +124,6 @@ meta {
 #define VALUE_D_TIER (_name) if (name:_name) D_TIER
 #define VALUE_E_TIER (_name) if (name:_name) E_TIER
 #define VALUE_f_TIER (_name) if (name:_name) f_TIER
-
-#define COOKED_FOOD (_name) if (name:_name) C_FOOD
 
 #define MASTER_CLUES(_name) if (name:_name)   { COLOR3("ff9B3026", KHAKI) }
 #define ELITE_CLUES(_name) if (name:_name)    { COLOR3("ffBDA518", KHAKI) }
@@ -369,7 +360,7 @@ VALUE_E_TIER("Archery ticket")
 VALUE_E_TIER("Trading sticks")
 VALUE_E_TIER("Shantay pass")
 VALUE_E_TIER("Ship ticket")
-VALUE_E_TIER("Numulite")
+//VALUE_E_TIER("Numulite")
 
 // Untradeable Currencies
 VALUE_E_TIER("Abyssal pearls")
