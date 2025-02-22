@@ -1,7 +1,7 @@
 // WARNING: This filter is large. We recommend you copy&paste it out into an external text editor to make changes.
 
 meta {
-    name = "loot-filters/filterscape";
+name = "loot-filters/filterscape";
     description = "Reference implementation of a loot filter, covering all major rares/uniques.";
 }
 
