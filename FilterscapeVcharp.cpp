@@ -181,7 +181,6 @@ UNIQUE_C_TIER("Dark totem middle")
 
 UNIQUE_S_TIER("Infernal Cape")
 UNIQUE_S_TIER("Fire Cape")
-UNIQUE_S_TIER("*Max Cape")
 UNIQUE_S_TIER("Dizana's Quiver*")
 UNIQUE_S_TIER("*Max Cape")
 
