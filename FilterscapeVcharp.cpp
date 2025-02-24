@@ -178,6 +178,7 @@ UNIQUE_B_TIER("Dark totem")
 UNIQUE_C_TIER("Dark totem top")
 UNIQUE_C_TIER("Dark totem base")
 UNIQUE_C_TIER("Dark totem middle")
+UNIQUE_C_TIER("Ancient shard")
 
 UNIQUE_S_TIER("Infernal Cape")
 UNIQUE_S_TIER("Fire Cape")
@@ -340,7 +341,7 @@ if (value:>VALUE_TIER_B) B_TIER
 if (value:>VALUE_TIER_C) C_TIER
 if (value:>VALUE_TIER_D) D_TIER
 if (value:>VALUE_TIER_E) E_TIER
-//if (value:<VALUE_TIER_F) F_TIER
+if (value:<VALUE_TIER_F) F_TIER
 
 // Misc Valuable/Stackable Items (Comment or remove any you don't want to see under min value)
 //VALUE_D_TIER("Dragon bones")
