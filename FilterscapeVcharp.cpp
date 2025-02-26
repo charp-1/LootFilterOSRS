@@ -334,6 +334,8 @@ COOKED_FOOD("Monkfish")
 COOKED_FOOD("Meat pizza")
 COOKED_FOOD("Lobster")
 
+UNIQUE_C_TIER("Pay-dirt")
+
 // Value Style defaults
 if (value:>VALUE_TIER_S) S_TIER
 if (value:>VALUE_TIER_A) A_TIER
