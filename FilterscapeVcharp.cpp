@@ -334,8 +334,6 @@ COOKED_FOOD("Monkfish")
 COOKED_FOOD("Meat pizza")
 COOKED_FOOD("Lobster")
 
-UNIQUE_C_TIER("Pay-dirt")
-
 // Value Style defaults
 if (value:>VALUE_TIER_S) S_TIER
 if (value:>VALUE_TIER_A) A_TIER
@@ -395,6 +393,7 @@ VALUE_E_TIER("Warrior guild token")
 VALUE_E_TIER("Blessed bone shards")
 VALUE_E_TIER("Sun-kissed bones")
 VALUE_E_TIER("Ecumenical key shard")
+UNIQUE_C_TIER("Pay-dirt")
 
 // Hide specific single/un-noted items
 HIDE_1("*ashes")
