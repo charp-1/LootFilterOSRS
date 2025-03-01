@@ -74,7 +74,6 @@ meta {
     COLOR3(_color, _backgroundColor) \
     showLootbeam = true; \
 }
-
 #define S_TIER { \
     COLOR3(RED, WHITE) \
     textAccent = 1; \
@@ -113,10 +112,12 @@ meta {
     COLOR2(WHITE) \
     textAccent = 1; \
 }
+#define DEFAULT_STYLE(_name, _color) if (name:_name) {\
+  color = WHITE; \
+  textAccent = 1; \
+}
 
-#define DEFAULT_STYLE { color = WHITE; textAccent = 1; }
 #define COOKED_FOOD (_name) if (name:_name) C_FOOD
-
 #define VALUE_S_TIER (_name) if (name:_name) S_TIER
 #define VALUE_A_TIER (_name) if (name:_name) A_TIER
 #define VALUE_B_TIER (_name) if (name:_name) B_TIER
