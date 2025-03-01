@@ -393,7 +393,12 @@ VALUE_E_TIER("Warrior guild token")
 VALUE_E_TIER("Blessed bone shards")
 VALUE_E_TIER("Sun-kissed bones")
 VALUE_E_TIER("Ecumenical key shard")
-UNIQUE_C_TIER("Pay-dirt")
+VALUE_E_TIER("Pay-dirt")
+
+// Hunter
+DEFAULT_STYLE("Box trap")
+DEFAULT_STYLE("Rope")
+DEFAULT_STYLE("Small fishing rope")
 
 // Hide specific single/un-noted items
 HIDE_1("*ashes")
