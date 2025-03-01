@@ -222,6 +222,18 @@ UNIQUE_B_TIER("Kq head*")
 UNIQUE_B_TIER("Dark claw")
 UNIQUE_C_TIER("Key master teleport")
 
+// The Gauntlet
+UNIQUE_A_TIER("Crystalline bowstring")
+UNIQUE_A_TIER("Crystal orb")
+UNIQUE_A_TIER("Crystal spike")
+UNIQUE_B_TIER("Weapon frame")
+VALUE_B_TIER("Teleport crystal")
+VALUE_C_TIER("Raw paddlefish")
+VALUE_C_TIER("Grym leaf")
+VALUE_C_TIER("Crystal ore")
+VALUE_C_TIER("Linum tirinum")
+VALUE_C_TIER("Phren bark")
+
 // Abyssal Sire Uniques
 UNIQUE_S_TIER("Unsired")
 UNIQUE_B_TIER("Bludgeon claw")
