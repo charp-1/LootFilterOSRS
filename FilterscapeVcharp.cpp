@@ -112,12 +112,13 @@ meta {
     COLOR2(WHITE) \
     textAccent = 1; \
 }
-#define DEFAULT_STYLE(_name, _color) if (name:_name) {\
-  color = WHITE; \
+#define UTILITY_TIER {\
+  color = CYAN; \
   textAccent = 1; \
 }
 
 #define COOKED_FOOD (_name) if (name:_name) C_FOOD
+#define UTILITY (_name) if (name:_name) UTILITY_TIER
 #define VALUE_S_TIER (_name) if (name:_name) S_TIER
 #define VALUE_A_TIER (_name) if (name:_name) A_TIER
 #define VALUE_B_TIER (_name) if (name:_name) B_TIER
@@ -347,15 +348,6 @@ COOKED_FOOD("Monkfish")
 COOKED_FOOD("Meat pizza")
 COOKED_FOOD("Lobster")
 
-// Value Style defaults
-if (value:>VALUE_TIER_S) S_TIER
-if (value:>VALUE_TIER_A) A_TIER
-if (value:>VALUE_TIER_B) B_TIER
-if (value:>VALUE_TIER_C) C_TIER
-if (value:>VALUE_TIER_D) D_TIER
-if (value:>VALUE_TIER_E) E_TIER
-if (value:<VALUE_TIER_F) F_TIER
-
 // Misc Valuable/Stackable Items (Comment or remove any you don't want to see under min value)
 //VALUE_D_TIER("Dragon bones")
 VALUE_D_TIER("Dagannoth bones")
@@ -409,9 +401,9 @@ VALUE_E_TIER("Ecumenical key shard")
 VALUE_E_TIER("Pay-dirt")
 
 // Hunter
-DEFAULT_STYLE("Box trap")
-DEFAULT_STYLE("Rope")
-DEFAULT_STYLE("Small fishing rope")
+UTILITY("Box trap")
+UTILITY("Rope")
+UTILITY("Small fishing rope")
 
 // Hide specific single/un-noted items
 HIDE_1("*ashes")
@@ -442,6 +434,15 @@ HIDE_1("*Harralander")
 // HIDE_1("*Ranarr weed")
 // HIDE_1("*Snapdragon")
 // HIDE_1("*Huasca")
+
+// Value Style defaults
+if (value:>VALUE_TIER_S) S_TIER
+if (value:>VALUE_TIER_A) A_TIER
+if (value:>VALUE_TIER_B) B_TIER
+if (value:>VALUE_TIER_C) C_TIER
+if (value:>VALUE_TIER_D) D_TIER
+if (value:>VALUE_TIER_E) E_TIER
+if (value:<VALUE_TIER_F) F_TIER
 
 // Catch all to display untradeables
  if (tradeable: false) {
