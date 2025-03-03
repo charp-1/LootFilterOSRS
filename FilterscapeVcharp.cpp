@@ -170,22 +170,22 @@ meta {
 #define TEXT_HIGHLIGHT(_name, _color) if (name:_name) { color = _color; textAccent = 1; }
 
 #define UNIQUE_S_TIER(_name ) if (name:_name) { \
-    COLOR3(RED, WHITE) \
+    COLOR3(RED, WHITE20) \
     textAccent = 1; \
     fontType = 2; \
     showLootbeam = true; \
 }
 #define UNIQUE_A_TIER(_name ) if (name:_name) { \
-    COLOR3(WHITE, LIGHT_BROWN60) \
+    COLOR3(WHITE, LIGHT_BROWN40) \
     textAccent = 1; \
     showLootbeam = true; \
 }
 #define UNIQUE_B_TIER(_name) if (name:_name) { \
-    COLOR3(BLACK, LIGHT_BROWN60) \
+    COLOR3(BLACK, LIGHT_BROWN40) \
     textAccent = 1; \
 }
 #define UNIQUE_C_TIER(_name) if (name:_name) { \
-    COLOR3(LIGHT_BROWN, BURGUNDY60) \
+    COLOR3(LIGHT_BROWN, BURGUNDY40) \
     textAccent = 1; \
 }
 
@@ -194,18 +194,18 @@ meta {
     showLootbeam = true; \
 }
 #define S_TIER { \
-    COLOR3(RED, WHITE) \
+    COLOR3(RED, WHITE20) \
     textAccent = 1; \
     showLootbeam = true; \
     fontType = 2; \
 }
 #define A_TIER { \
-    COLOR3(WHITE, ORANGE) \
+    COLOR3(WHITE, ORANGE40) \
     textAccent = 1; \
     showLootbeam = true; \
 }
 #define B_TIER { \
-    COLOR3(BLACK, ORANGE) \
+    COLOR3(BLACK, ORANGE40) \
     showLootbeam = true; \
 }
 #define C_TIER { \
