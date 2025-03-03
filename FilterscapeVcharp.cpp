@@ -1,5 +1,5 @@
 meta {
-    name = "loot-filters/filterscapeVcharp";
+    name = "charp-1/CharpSelect";
     description = "A edit of the reference file to my tastes. Credit to @abstain of the FilterScape Discord for the base!";
 }
 
