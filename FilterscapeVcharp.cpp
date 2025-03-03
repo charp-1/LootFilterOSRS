@@ -166,7 +166,7 @@ meta {
 #define COLOR2(_fg) textColor = _fg; borderColor = _fg;
 #define COLOR3(_fg, _bg) textColor = _fg; borderColor = _fg; backgroundColor = _bg;
 #define HIDE_1(_name) if (name:_name && quantity:<2) { hidden = true; }
-#define DARK_BG(_name, _color) if (name:_name) { color = _color; borderColor = _color; backgroundColor = BLACK; }
+#define DARK_BG(_name, _color) if (name:_name) { color = _color; borderColor = _color; backgroundColor = BLACK60; }
 #define TEXT_HIGHLIGHT(_name, _color) if (name:_name) { color = _color; textAccent = 1; }
 
 #define UNIQUE_S_TIER(_name ) if (name:_name) { \
