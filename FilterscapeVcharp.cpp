@@ -257,11 +257,11 @@ meta {
     hidden = true; \
 }
 #define C_FOOD { \
-    COLOR2(WHITE) \
+    COLOR2(WHITE80) \
     textAccent = 1; \
 }
 #define UTILITY_TIER {\
-  color = CYAN; \
+  color = CYAN80; \
   textAccent = 1; \
 }
 
@@ -275,12 +275,12 @@ meta {
 #define VALUE_E_TIER (_name) if (name:_name) E_TIER
 #define VALUE_f_TIER (_name) if (name:_name) f_TIER
 
-#define MASTER_CLUES(_name) if (name:_name)   { COLOR3("ff9B3026", KHAKI) }
-#define ELITE_CLUES(_name) if (name:_name)    { COLOR3("ffBDA518", KHAKI) }
-#define HARD_CLUES(_name) if (name:_name)     { COLOR3("ff833798", KHAKI) }
-#define MEDIUM_CLUES(_name) if (name:_name)   { COLOR3("ff569699", KHAKI) }
-#define EASY_CLUES(_name) if (name:_name)     { COLOR3(DARK_GREEN, KHAKI) }
-#define BEGINNER_CLUES(_name) if (name:_name) { COLOR3(     WHITE, KHAKI) }
+#define MASTER_CLUES(_name) if (name:_name)   { COLOR3("ff9B3026", KHAKI80) }
+#define ELITE_CLUES(_name) if (name:_name)    { COLOR3("ffBDA518", KHAKI80) }
+#define HARD_CLUES(_name) if (name:_name)     { COLOR3("ff833798", KHAKI80) }
+#define MEDIUM_CLUES(_name) if (name:_name)   { COLOR3("ff569699", KHAKI80) }
+#define EASY_CLUES(_name) if (name:_name)     { COLOR3(DARK_GREEN, KHAKI80) }
+#define BEGINNER_CLUES(_name) if (name:_name) { COLOR3(     WHITE, KHAKI80) }
 
 // Testing Block
 //VALUE_S_TIER("Magic leaves")
