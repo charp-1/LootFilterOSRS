@@ -18,146 +18,175 @@ meta {
 
 // Colors
 #define GRAY "ff808080"
+#define GRAY80 "cc808080"
 #define GRAY60 "99808080"
 #define GRAY40 "66808080"
 #define GRAY20 "33808080"
 
 #define RED "ffff0000"
+#define RED80 "ccff0000"
 #define RED60 "99ff0000"
 #define RED40 "66ff0000"
 #define RED20 "33ff0000"
 
 #define GREEN "ff00ff00"
+#define GREEN80 "cc00ff00"
 #define GREEN60 "9900ff00"
 #define GREEN40 "6600ff00"
 #define GREEN20 "3300ff00"
 
 #define BLUE "ff0000ff"
+#define BLUE80 "cc0000ff"
 #define BLUE60 "990000ff"
 #define BLUE40 "660000ff"
 #define BLUE20 "330000ff"
 
 #define CYAN "ff00ffff"
+#define CYAN80 "cc00ffff"
 #define CYAN60 "9900ffff"
 #define CYAN40 "6600ffff"
 #define CYAN20 "3300ffff"
 
 #define MAGENTA "ffff00ff"
+#define MAGENTA80 "ccff00ff"
 #define MAGENTA60 "99ff00ff"
 #define MAGENTA40 "66ff00ff"
 #define MAGENTA20 "33ff00ff"
 
 #define YELLOW "ffffff00"
+#define YELLOW80 "ccffff00"
 #define YELLOW60 "99ffff00"
 #define YELLOW40 "66ffff00"
 #define YELLOW20 "33ffff00"
 
 #define WHITE "ffffffff"
+#define WHITE80 "ccffffff"
 #define WHITE60 "99ffffff"
 #define WHITE40 "66ffffff"
 #define WHITE20 "33ffffff"
 
 #define BLACK "ff000000"
+#define BLACK80 "cc000000"
 #define BLACK60 "99000000"
 #define BLACK40 "66000000"
 #define BLACK20 "33000000"
 
 #define BROWN "ffD2B287"
+#define BROWN80 "ccD2B287"
 #define BROWN60 "99D2B287"
 #define BROWN40 "66D2B287"
 #define BROWN20 "33D2B287"
 
 #define LIGHT_BROWN "ffAF6025"
+#define LIGHT_BROWN80 "ccAF6025"
 #define LIGHT_BROWN60 "99AF6025"
 #define LIGHT_BROWN40 "66AF6025"
 #define LIGHT_BROWN20 "33AF6025"
 
 #define ORANGE "ffF05A23"
+#define ORANGE80 "ccF05A23"
 #define ORANGE60 "99F05A23"
 #define ORANGE40 "66F05A23"
 #define ORANGE20 "33F05A23"
 
 #define CARAMEL "ffF99619"
+#define CARAMEL80 "ccF99619"
 #define CARAMEL60 "99F99619"
 #define CARAMEL40 "66F99619"
 #define CARAMEL20 "33F99619"
 
 #define GOLD "ffD59F00"
+#define GOLD80 "ccD59F00"
 #define GOLD60 "99D59F00"
 #define GOLD40 "66D59F00"
 #define GOLD20 "33D59F00"
 
 #define BURGUNDY "ff350D0D"
+#define BURGUNDY80 "cc350D0D"
 #define BURGUNDY60 "99350D0D"
 #define BURGUNDY40 "66350D0D"
 #define BURGUNDY20 "33350D0D"
 
 #define DARK_GREEN "ff09600D"
+#define DARK_GREEN80 "cc09600D"
 #define DARK_GREEN60 "9909600D"
 #define DARK_GREEN40 "6609600D"
 #define DARK_GREEN20 "3309600D"
 
 #define KHAKI "ffBEB287"
+#define KHAKI80 "ccBEB287"
 #define KHAKI60 "99BEB287"
 #define KHAKI40 "66BEB287"
 #define KHAKI20 "33BEB287"
 
 #define BRONZE "ff5b462a"
+#define BRONZE80 "cc5b462a"
 #define BRONZE60 "995b462a"
 #define BRONZE40 "665b462a"
 #define BRONZE20 "335b462a"
 
 #define BLURITE "ff8f90d8"
+#define BLURITE80 "cc8f90d8"
 #define BLURITE60 "998f90d8"
 #define BLURITE40 "668f90d8"
 #define BLURITE20 "338f90d8"
 
 #define IRON "ff635c5b"
+#define IRON80 "cc635c5b"
 #define IRON60 "99635c5b"
 #define IRON40 "66635c5b"
 #define IRON20 "33635c5b"
 
 #define ELEMENTAL "ff70119f"
+#define ELEMENTAL80 "cc70119f"
 #define ELEMENTAL60 "9970119f"
 #define ELEMENTAL40 "6670119f"
 #define ELEMENTAL20 "3370119f"
 
 #define SILVER "ffa8a8b4"
+#define SILVER80 "cca8a8b4"
 #define SILVER60 "99a8a8b4"
 #define SILVER40 "66a8a8b4"
 #define SILVER20 "33a8a8b4"
 
 #define STEEL "ff908686"
+#define STEEL80 "cc908686"
 #define STEEL60 "99908686"
 #define STEEL40 "66908686"
 #define STEEL20 "33908686"
 
 #define GOLD "ffd8b01a"
+#define GOLD80 "ccd8b01a"
 #define GOLD60 "99d8b01a"
 #define GOLD40 "66d8b01a"
 #define GOLD20 "33d8b01a"
 
 #define LOVAKITE "ff641509"
+#define LOVAKITE80 "cc641509"
 #define LOVAKITE60 "99641509"
 #define LOVAKITE40 "66641509"
 #define LOVAKITE20 "33641509"
 
 #define MITHRIL "ff4c4c70"
+#define MITHRIL80 "cc4c4c70"
 #define MITHRIL60 "994c4c70"
 #define MITHRIL40 "664c4c70"
 #define MITHRIL20 "334c4c70"
 
 #define LUNAR "ff727b72"
+#define LUNAR80 "cc727b72"
 #define LUNAR60 "99727b72"
 #define LUNAR40 "66727b72"
 #define LUNAR20 "33727b72"
 
 #define ADAMANT "ff506450"
+#define ADAMANT80 "cc506450"
 #define ADAMANT60 "99506450"
 #define ADAMANT40 "66506450"
 #define ADAMANT20 "33506450"
 
 #define RUNITE "ff516d78"
+#define RUNITE80 "cc516d78"
 #define RUNITE60 "99516d78"
 #define RUNITE40 "66516d78"
 #define RUNITE20 "33516d78"
@@ -246,12 +275,12 @@ meta {
 #define VALUE_E_TIER (_name) if (name:_name) E_TIER
 #define VALUE_f_TIER (_name) if (name:_name) f_TIER
 
-#define MASTER_CLUES(_name) if (name:_name)   { COLOR3("ff9B3026", KHAKI60) }
-#define ELITE_CLUES(_name) if (name:_name)    { COLOR3("ffBDA518", KHAKI60) }
-#define HARD_CLUES(_name) if (name:_name)     { COLOR3("ff833798", KHAKI60) }
-#define MEDIUM_CLUES(_name) if (name:_name)   { COLOR3("ff569699", KHAKI60) }
-#define EASY_CLUES(_name) if (name:_name)     { COLOR3(DARK_GREEN, KHAKI60) }
-#define BEGINNER_CLUES(_name) if (name:_name) { COLOR3(     WHITE, KHAKI60) }
+#define MASTER_CLUES(_name) if (name:_name)   { COLOR3("ff9B3026", KHAKI) }
+#define ELITE_CLUES(_name) if (name:_name)    { COLOR3("ffBDA518", KHAKI) }
+#define HARD_CLUES(_name) if (name:_name)     { COLOR3("ff833798", KHAKI) }
+#define MEDIUM_CLUES(_name) if (name:_name)   { COLOR3("ff569699", KHAKI) }
+#define EASY_CLUES(_name) if (name:_name)     { COLOR3(DARK_GREEN, KHAKI) }
+#define BEGINNER_CLUES(_name) if (name:_name) { COLOR3(     WHITE, KHAKI) }
 
 // Testing Block
 //VALUE_S_TIER("Magic leaves")
