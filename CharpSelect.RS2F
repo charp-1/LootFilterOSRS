@@ -267,7 +267,7 @@ meta {
   textAccent = 1; \
 }
 #define DEFAULT_STYLE {\
-  color = WHITE60; \
+  color = WHITE80; \
   textAccent = 1; \
 }
 
