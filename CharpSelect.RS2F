@@ -12,6 +12,8 @@ meta {
 #define VALUE_TIER_E 20000     // 20k
 #define VALUE_TIER_F 800       // 800
 
+
+
 // 60% = 99
 // 40% = 66
 // 20% = 33
@@ -257,16 +259,20 @@ meta {
     hidden = true; \
 }
 #define C_FOOD { \
-    COLOR2(WHITE80) \
+    COLOR2(WHITE60) \
     textAccent = 1; \
 }
 #define UTILITY_TIER {\
   color = CYAN80; \
   textAccent = 1; \
 }
+#define DEFAULT_STYLE {\
+  color = WHITE60; \
+  textAccent = 1; \
+}
 
-#define COOKED_FOOD (_name) if (name:_name) C_FOOD
-#define UTILITY (_name) if (name:_name) UTILITY_TIER
+#define COOKED_FOOD (_name) if (name:_name && noted:false) C_FOOD
+#define UTILITY (_name) if (name:_name && noted:false) UTILITY_TIER
 #define VALUE_S_TIER (_name) if (name:_name) S_TIER
 #define VALUE_A_TIER (_name) if (name:_name) A_TIER
 #define VALUE_B_TIER (_name) if (name:_name) B_TIER
@@ -489,7 +495,9 @@ COOKED_FOOD("Cooked moonlight antelope")
 COOKED_FOOD("Anglerfish")
 COOKED_FOOD("Manta ray")
 COOKED_FOOD("Dark crab")
+COOKED_FOOD("Tuna potato")
 COOKED_FOOD("Shark")
+COOKED_FOOD("Ugthanki kebab")
 COOKED_FOOD("Cooked Karambwan")
 COOKED_FOOD("Wild pie")
 COOKED_FOOD("Monkfish")
@@ -559,29 +567,7 @@ HIDE_1("*ashes")
 //HIDE_1("blue dragonhide")
 HIDE_1("green dragonhide")
 HIDE_1("red dragonhide")
-HIDE_1("black dragonhide")
-
-// Herbs (grouped by GE value, remove herbs you want to pickup)
-// < 1k
-HIDE_1("*Marrentill")
-HIDE_1("*Tarromin")
-HIDE_1("*Guam leaf")
-HIDE_1("*Harralander")
-
-// > 1k
-// HIDE_1("*Irit leaf")
-// HIDE_1("*Lantadyme")
-// HIDE_1("*Dwarf weed")
-// HIDE_1("*Avantoe")
-// HIDE_1("*Torstol")
-// HIDE_1("*Cadantine")
-// HIDE_1("*Toadflax")
-// HIDE_1("*Kwuarm")
-
-// > 5k
-// HIDE_1("*Ranarr weed")
-// HIDE_1("*Snapdragon")
-// HIDE_1("*Huasca")
+//HIDE_1("black dragonhide")
 
 // Value Style defaults
 if (value:>VALUE_TIER_S) S_TIER
@@ -590,6 +576,8 @@ if (value:>VALUE_TIER_B) B_TIER
 if (value:>VALUE_TIER_C) C_TIER
 if (value:>VALUE_TIER_D) D_TIER
 if (value:>VALUE_TIER_E) E_TIER
+if (value:<VALUE_TIER_E) DEFAULT_STYLE
+if (value:>VALUE_TIER_F) DEFAULT_STYLE
 if (value:<VALUE_TIER_F) F_TIER
 
 // Catch all to display untradeables
