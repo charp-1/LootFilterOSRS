@@ -13,7 +13,7 @@ meta {
 #define VALUE_TIER_F 800       // 800
 
 
-
+// 80% = cc
 // 60% = 99
 // 40% = 66
 // 20% = 33
@@ -556,7 +556,7 @@ VALUE_E_TIER("Sun-kissed bones")
 VALUE_E_TIER("Ecumenical key shard")
 VALUE_E_TIER("Pay-dirt")
 
-// Hunter
+// Misc
 UTILITY("Box trap")
 UTILITY("Rope")
 UTILITY("Small fishing rope")
@@ -578,7 +578,7 @@ if (value:>VALUE_TIER_C) C_TIER
 if (value:>VALUE_TIER_D) D_TIER
 if (value:>VALUE_TIER_E) E_TIER
 //if (value:<VALUE_TIER_E) DEFAULT_STYLE
-//if (value:>VALUE_TIER_F) DEFAULT_STYLE
+if (value:>VALUE_TIER_F) DEFAULT_STYLE
 if (value:<VALUE_TIER_F) F_TIER
 
 // Catch all to display untradeables
