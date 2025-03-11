@@ -201,17 +201,17 @@ meta {
 #define TEXT_HIGHLIGHT(_name, _color) if (name:_name) { color = _color; textAccent = 1; }
 
 #define UNIQUE_S_TIER(_name ) if (name:_name) { \
-    COLOR3(RED, WHITE20) \
+    COLOR3(BLUE, WHITE60) \
     textAccent = 1; \
     fontType = 2; \
     showLootbeam = true; \
-    sound = "victory.wav"; \
+    sound = "Victory_Burthorpe_Games_Room.wav"; \
 }
 #define UNIQUE_A_TIER(_name ) if (name:_name) { \
     COLOR3(WHITE, LIGHT_BROWN40) \
     textAccent = 1; \
     showLootbeam = true; \
-    sound = "Victory_Burthorpe_Games_Room.wav"; \
+    sound = "victory.wav"; \
 }
 #define UNIQUE_B_TIER(_name) if (name:_name) { \
     COLOR3(BLACK, LIGHT_BROWN40) \
@@ -229,17 +229,17 @@ meta {
     showLootbeam = true; \
 }
 #define S_TIER { \
-    COLOR3(RED, WHITE20) \
+    COLOR3(BLUE, WHITE60) \
     textAccent = 1; \
     showLootbeam = true; \
     fontType = 2; \
-    sound = "victory.wav"; \
+    sound = "Victory_Burthorpe_Games_Room.wav"; \
 }
 #define A_TIER { \
     COLOR3(WHITE, ORANGE40) \
     textAccent = 1; \
     showLootbeam = true; \
-    sound = "Victory_Burthorpe_Games_Room.wav"; \
+    sound = "victory.wav"; \
 }
 #define B_TIER { \
     COLOR3(BLACK, ORANGE40) \
@@ -296,17 +296,17 @@ meta {
 #define BEGINNER_CLUES(_name) if (name:_name) { COLOR3(     WHITE, KHAKI80) }
 
 // Testing Block
-//VALUE_S_TIER("Magic leaves")
-//VALUE_A_TIER("Yew leaves")
-//VALUE_B_TIER("Maple leaves")
-//VALUE_C_TIER("Willow leaves")
-//VALUE_D_TIER("Oak leaves")
-//VALUE_E_TIER("Leaves")
+VALUE_S_TIER("Magic leaves")
+VALUE_A_TIER("Yew leaves")
+VALUE_B_TIER("Maple leaves")
+VALUE_C_TIER("Willow leaves")
+VALUE_D_TIER("Oak leaves")
+VALUE_E_TIER("Leaves")
 
-//UNIQUE_S_TIER("Shayzien helm (4)")
-//UNIQUE_A_TIER("Shayzien platebody (4)")
-//UNIQUE_B_TIER("Shayzien greaves (4)")
-//UNIQUE_C_TIER("Shayzien Boots (4)")
+UNIQUE_S_TIER("Shayzien helm (4)")
+UNIQUE_A_TIER("Shayzien platebody (4)")
+UNIQUE_B_TIER("Shayzien greaves (4)")
+UNIQUE_C_TIER("Shayzien Boots (4)")
 
 // Clues
 MASTER_CLUES("clue scroll (master)")
