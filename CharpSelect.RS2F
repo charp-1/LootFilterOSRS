@@ -223,7 +223,11 @@ meta {
     textAccent = 1; \
     sound = "Unique_drop_sound_effect.wav"; \
 }
-
+#define HA_TIER {\
+    color = GOLD80; \
+    textAccent = 1; \
+    icon = Sprite(41, 0); \
+}
 #define RARE_CUSTOM(_name, _color, _backgroundColor) if (name:_name) { \
     COLOR3(_color, _backgroundColor) \
     showLootbeam = true; \
@@ -462,6 +466,9 @@ UNIQUE_C_TIER("Charged Ice")
 // Nightmare
 UNIQUE_S_TIER("Slepey Tablet")
 UNIQUE_C_TIER("Parasitic egg")
+
+// Yama
+UNIQUE_C_TIER("Contract of *")
 
 // Tormented Demons Supplies
 DARK_BG("Smouldering pile of flesh", RED)
