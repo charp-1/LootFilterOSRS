@@ -477,6 +477,14 @@ UNIQUE_C_TIER("Parasitic egg")
 // Yama
 UNIQUE_C_TIER("Contract of *")
 
+// Shellbane gryphon
+UNIQUE_B_TIER("Belle's folly (tarnished)")
+
+// Brutus
+UNIQUE_S_TIER("Mooleta")
+UNIQUE_S_TIER("Bottomless milk bucket (empty)")
+UNIQUE_S_TIER("Cow slippers")
+
 // Tormented Demons Supplies
 DARK_BG("Smouldering pile of flesh", RED)
 DARK_BG("Smouldering gland", CYAN)
