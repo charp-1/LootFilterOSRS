@@ -313,6 +313,13 @@ meta {
 //UNIQUE_C_TIER("Shayzien Boots (4)")
 
 // Clues
+MASTER_CLUES("Scroll box (master)")
+ELITE_CLUES("Scroll box (elite)")
+HARD_CLUES("Scroll box (hard)")
+MEDIUM_CLUES("Scroll box (medium)")
+EASY_CLUES("Scroll box (easy)")
+BEGINNER_CLUES("Scroll box (beginner)")
+
 MASTER_CLUES("clue scroll (master)")
 ELITE_CLUES("clue scroll (elite)")
 HARD_CLUES("clue scroll (hard)")
