@@ -281,7 +281,7 @@ meta {
   color = WHITE80; \
   textAccent = 1; \
 }
-#define COINS {\
+#define COINS(_name ) if (name:_name) {\
     color = GOLD80; \
     textAccent = 1; \
     icon = Item(617); \
