@@ -281,7 +281,11 @@ meta {
   color = WHITE80; \
   textAccent = 1; \
 }
-
+#define COINS {\
+    color = GOLD80; \
+    textAccent = 1; \
+    icon = Item(617); \
+}
 #define COOKED_FOOD (_name) if (name:_name && noted:false) C_FOOD
 #define UTILITY (_name) if (name:_name && noted:false) UTILITY_TIER
 #define VALUE_S_TIER (_name) if (name:_name) S_TIER
@@ -311,6 +315,8 @@ meta {
 //UNIQUE_A_TIER("Shayzien platebody (4)")
 //UNIQUE_B_TIER("Shayzien greaves (4)")
 //UNIQUE_C_TIER("Shayzien Boots (4)")
+
+COINS("Coins")
 
 // Clues
 MASTER_CLUES("Scroll box (master)")
