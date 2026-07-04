@@ -465,6 +465,9 @@ UNIQUE_C_TIER("Ice quartz")
 // Scurrius
 UNIQUE_B_TIER("Scurrius' spine")
 
+// Sarachnis
+UNIQUE_C_TIER("Pristine spider silk")
+
 // Zulrah
 UNIQUE_S_TIER("*mutagen")
 
@@ -481,7 +484,7 @@ UNIQUE_S_TIER("Slepey Tablet")
 UNIQUE_C_TIER("Parasitic egg")
 
 // Yama
-UNIQUE_C_TIER("Contract of *")
+UNIQUE_C_TIER("Contract of*")
 
 // Shellbane gryphon
 UNIQUE_B_TIER("Belle's folly (tarnished)")
@@ -552,10 +555,12 @@ VALUE_D_TIER("Crystal shard")
 // Tradeable Currencies (Comment or remove any you don't want to see under min value)
 VALUE_D_TIER("Mole claw")
 VALUE_D_TIER("Mole skin")
+VALUE_D_TIER("Immaculate mole skin")
 VALUE_E_TIER("Archery ticket")
 VALUE_E_TIER("Trading sticks")
 VALUE_E_TIER("Shantay pass")
 VALUE_E_TIER("Ship ticket")
+
 //VALUE_E_TIER("Numulite")
 
 // Untradeable Currencies
