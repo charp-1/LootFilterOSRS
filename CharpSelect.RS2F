@@ -599,7 +599,7 @@ VALUE_E_TIER("Pay-dirt")
 // Misc
 UTILITY("Box trap")
 UTILITY("Rope")
-UTILITY("Small fishing rope")
+UTILITY("Small fishing net")
 UTILITY("Tarn's diary")
 
 // Hide specific single/un-noted items
@@ -617,7 +617,6 @@ if (value:>VALUE_TIER_B) B_TIER
 if (value:>VALUE_TIER_C) C_TIER
 if (value:>VALUE_TIER_D) D_TIER
 if (value:>VALUE_TIER_E) E_TIER
-//if (value:<VALUE_TIER_E) DEFAULT_STYLE
 if (value:>VALUE_TIER_F) DEFAULT_STYLE
 if (value:<VALUE_TIER_F) F_TIER
 
